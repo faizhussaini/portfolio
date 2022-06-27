@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Pacifico&display=swap');
+
+
+
+#faiz{
+    text-align: center;
+    font-family: 'Fascinate';
+    font-size: 80px;
+    transition: none;
+    transform: none;
+    margin-bottom: 50px;
+
+}
+.permalinks{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 90px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;  
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+    
+   
+}
+.footer_socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    gap: 40px;
+    margin-bottom: 130px;
+    
+}
+#pai:hover{
+    color: black;
+}
+
+    
+
+@media  screen and (max-width:450px){
+    #faiz{
+       
+        font-family: 'Fascinate';
+        font-size: 80px;
+        
+        margin-bottom: 50px;
+    
+    }
+    .permalinks{
+        display: flex;
+        flex-direction: column;
+        margin-left: 140px;
+        justify-content: center;
+        
+        
+        
+        
+        text-align: center;
+        
+        
+       
+    }
+    .footer_socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 40%;      
+}
+#faiz{
+    margin-left: 40%;
+}
+}

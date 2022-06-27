@@ -1,0 +1,134 @@
+.about_container{
+    display: grid;
+    grid-template-columns: 30% 60% 20%;
+    gap: 20%;
+    text-align: center;
+    
+   
+    
+    
+}
+.about_me{
+   
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear white(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    margin-left: 200px;
+    place-items: right;
+    
+}
+.about_image{
+    
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    left :30px;
+   
+}
+.about_image:hover{
+    transform: rotate(0);
+    transition: var(--transition);
+}
+.about_cards{
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    
+    
+ 
+
+}
+.about_card{
+
+    background:var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding:  4rem;
+    justify-content: end;
+    transition: var(--transition);
+    
+}
+.about_card:hover{
+    background: transparent;
+    border-color:var(--color-primary-variant);
+    cursor: default;
+}
+.about_icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.about_card h5{
+    font-size: 0.95;
+}
+.about_card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+.about-content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+.btn{
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 5px;
+}
+@media  screen and (max-width:1024px){
+    .about_container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about_me{
+        width: 50%;
+        margin : 2rem auto 4rem;
+        margin-left: 210px;
+    }
+      
+     
+
+    
+}
+@media  screen and (max-width:450px){
+    
+    .about_container{
+        grid-template-columns: 2fr;
+        gap: 0;
+       
+    }
+    .about_me{
+       
+        width: 25%;
+        margin : 2rem auto 2rem;
+        margin-left: 110px;
+    }
+    .about_cards{
+        grid-template-rows: 3fr;
+        width: 5%;
+        
+        margin-left: 0%;
+    }
+    p{
+        font-size: 10px;
+        text-align: left;
+        margin-left: 0%;
+        margin-top: 2px;
+    }
+        
+        
+        
+    
+}

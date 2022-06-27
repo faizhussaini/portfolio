@@ -1,0 +1,40 @@
+nav{
+    background: rgb(0,0,0,3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    transform: translateX(-50%);
+    bottom:2rem;
+    display:flex;
+    gap:0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: 1.1rem;
+    left: 50%;
+    
+    
+
+
+}
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    display:flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color--white);
+}
+@media  screen and (max-width:450px){
+.bob{
+  width: 100%;
+  gap: 4px; 
+}
+#chucha1{
+    margin-left: 22%;
+}
+
+}

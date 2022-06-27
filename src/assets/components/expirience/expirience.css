@@ -1,0 +1,44 @@
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 4%;
+    margin-left: 23%;
+    width: 100%;
+    
+    
+}
+.experience_container>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border: 1px solid transparent;
+    margin-left: 5%;
+    margin-right: 50%;
+    border-radius: 30px;
+   
+    }
+    h3{
+        font-size: larger;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .tick{
+        
+        color: green;
+        
+        
+        
+    }
+    .experience_container>div:hover{
+        background: transparent;
+        transition: var(--transition);
+        border: 2px solid var(--color-bg-variant);
+    }
+    #fd{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+    }

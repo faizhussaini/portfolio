@@ -1,0 +1,121 @@
+.contact_container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58% ;
+    gap:7rem;
+    margin-left: 20%;
+
+}
+.contact_options{
+
+display: flex;
+flex-direction: column;
+gap: 7rem;
+
+}
+.contact_option{
+background: var(--color-bg-variant);
+padding: 1.2rem;
+border-radius: 1.2rem;
+text-align: center;
+border: 1px solid transparent;
+transition: var(--transition);
+
+}
+.wts{
+    color: green;
+    font-size: 200%;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    
+    
+}
+input{
+    height: 250%;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid gray;
+    color: aliceblue;
+    font-size: 15px;
+    
+    
+}
+textarea{
+    height: 165%;
+    resize: none;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid gray;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+.su{
+    background: var(--color-bg-variant);
+    border-radius: 100%;
+    margin-top: 40px;
+}
+.su:hover{
+    cursor: pointer;
+}
+#hd{
+    visibility: collapse;
+}
+#wtm{
+    background: var(--color-bg);
+    cursor: pointer;
+    transform: none;
+
+}
+@media  screen and (max-width:1024px){
+    
+}
+@media  screen and (max-width:450px){
+    .contact_container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 190%;
+        gap: 0%;
+        
+        
+    }
+    .contact_options{
+        gap: 4px;
+        width: 160%;
+        margin-left: 5%;
+    }
+    .form{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        margin-top: 6px;
+        width: 160%;
+        margin-left: 13px;
+        
+        
+        
+    }
+    .input{
+        gap: 0%;
+        
+        
+    }
+    textarea{
+        height: 165%;
+        resize: none;
+        border-radius: 8px;
+        background: transparent;
+        border: 2px solid gray;
+        color: aliceblue;
+        font-size: 15px;
+}
+#su{
+    margin-top: 57px;
+}
+#pipa{
+    margin-left: 150px;
+}
+}
