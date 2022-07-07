@@ -9,8 +9,8 @@ import {FaLaptopCode} from 'react-icons/fa'
 const about = () => {
   return (
     <section id='about'>
-      <h5>Wanna Know </h5>
-      <h2>About Me</h2>
+      <h5 id='not'>Wanna Know </h5>
+      <h2 id='not'>About Me</h2>
 
       <div className="container about_container"
       >
@@ -37,11 +37,11 @@ const about = () => {
               <small>15</small>
             </article>
           </div>
-          <p>
+          <p id='abt_p'>
             I provide Shape to Imagination , am a dedicated and very curios Front End Developer. I always like to Push the Limits, 
             and Collaborate with Teams And build Responsive Designs and Layouts. 
           </p>
-          <a href="#contact" className='btn btn-primary'>Lets Talk</a>
+          <a href="#contact" id='butt' className='btn btn-primary'>Lets Talk</a>
         </div>
       </div>
     </section>
