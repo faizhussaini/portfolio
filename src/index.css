@@ -107,7 +107,7 @@ img{
 section{
     margin-top: 3rem;
 }
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:500px) {
     .container{
         width :var(--container-width-sm);
     }
