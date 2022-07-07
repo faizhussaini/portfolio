@@ -42,3 +42,22 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 500;
     }
+    @media  screen and (max-width:400px){
+        
+        #expirience{
+            margin-top: 120%;
+        }
+        .skills{
+            display: flex;
+            flex-direction: column;
+        }
+        .experience_container{
+            width: 600px;
+            margin-left:40px;
+        }
+        .experience_container>div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }

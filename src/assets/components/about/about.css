@@ -102,7 +102,7 @@ p{
 
     
 }
-@media  screen and (max-width:450px){
+@media  screen and (max-width:400px){
     
     .about_container{
         grid-template-columns: 2fr;
@@ -110,25 +110,34 @@ p{
        
     }
     .about_me{
-       
-        width: 25%;
-        margin : 2rem auto 2rem;
-        margin-left: 110px;
+       justify-content: center;
+        width: 55%;
+        margin-left: 100px;
+        
     }
     .about_cards{
-        grid-template-rows: 3fr;
-        width: 5%;
+       display: grid;
+       grid-template-columns: 2fr;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 45px ;
         
-        margin-left: 0%;
+       
     }
     p{
         font-size: 10px;
-        text-align: left;
-        margin-left: 0%;
-        margin-top: 2px;
+        text-align: center;
+        margin-left: 12%;
+        margin-top: 5px;
+        letter-spacing: 3px;
     }
-        
-        
+    #not{
+        text-align: center;
+        margin-left:55px;
+    }
+    .btn{
+        margin-left: 50px;
+    }
         
     
 }

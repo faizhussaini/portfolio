@@ -28,13 +28,13 @@ nav a.active{
     background: var(--color-bg);
     color: var(--color--white);
 }
-@media  screen and (max-width:450px){
+@media  screen and (max-width:400px){
 .bob{
   width: 100%;
   gap: 4px; 
 }
 #chucha1{
-    margin-left: 22%;
+    margin-left: 8%;
 }
 
 }

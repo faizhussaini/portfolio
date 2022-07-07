@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <section id='contact'>
     <h5 id='pipa'>Get In Touch</h5>
-    <h2 id='pipa'>Contatct Me</h2>
+    <h2 id='pipa'>Contact Me</h2>
     <div className="contact_container">
       <div className="contact_options">
 

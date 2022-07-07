@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@300;400;500;600&display=swap');
+
 .portfolio{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -64,5 +65,11 @@ h1:hover{
         
 }
 @media  screen and (max-width:450px){
-    
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+   
 }

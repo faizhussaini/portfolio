@@ -18,9 +18,9 @@ const footer = () => {
         <li><a id='pai' href="#contact">Contact</a></li>
       </ul>
       <div className='footer_socials'>
-        <a href="https://facebook.com"><ImFacebook2/></a>
-        <a href="https://instagram.com"><BsInstagram/></a>
-        <a href="https://linkdin.com"><BsLinkedin/></a>
+        <a href="https://facebook.com" ><ImFacebook2/></a>
+        <a href="https://www.instagram.com/ifaiz_hussaini/"><BsInstagram/></a>
+        <a href="https://www.linkedin.com/in/syed-faiyaz-hussaini-54840823b"><BsLinkedin/></a>
       </div>
     </footer>
   )
